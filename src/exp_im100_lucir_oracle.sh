@@ -29,6 +29,3 @@ CUDA_VISIBLE_DEVICES=$device_id python3 main_incremental.py --exp-name nc_first_
      --num-exemplars-per-class $n_exemplar --exemplar-selection herding \
      --first-task-lr $first_task_lr --first-task-bz $first_task_bz \
      --aux-coef $aux_coef --oracle-path $oracle_path
-
-CUDA_VISIBLE_DEVICES=$device_id python3 occ.py
-

@@ -20,5 +20,4 @@ CUDA_VISIBLE_DEVICES=$device_id python3 main_incremental.py --exp-name nc_first_
      --clipping -1 --results-path results --save-models \
      --approach $appr
 
-CUDA_VISIBLE_DEVICES=$device_id python3 occ.py
 

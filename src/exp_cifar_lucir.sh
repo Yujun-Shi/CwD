@@ -23,6 +23,3 @@ CUDA_VISIBLE_DEVICES=$device_id python3 main_incremental.py --exp-name ${nc_firs
      --clipping -1 --results-path results --save-models \
      --approach $appr --lamb $lamb --first-task-bz $first_task_bz --first-task-lr $first_task_lr \
      --num-exemplars-per-class 20 --exemplar-selection herding
-
-CUDA_VISIBLE_DEVICES=$device_id python3 occ.py
-
