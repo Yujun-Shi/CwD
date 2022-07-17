@@ -319,7 +319,7 @@ class Appr(Inc_Learning_Appr):
                     # Eq. 8: margin ranking loss
                     loss_mr = nn.MarginRankingLoss(margin=self.dist)(gt_scores.view(-1, 1),
                                                                      max_novel_scores.view(-1, 1),
-                                                                     torch.ones(hard_num * self.K).to(self.device))
+                                                                     torch.ones(hard_num * self.K).to(self.device).view(-1, 1))
                     loss_mr *= self.lamb_mr
 
             # Eq. 1: regular cross entropy
