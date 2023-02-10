@@ -87,11 +87,12 @@ To use our CwD loss in your own project, simply copy and paste the CwD loss impl
 
 If you find our repo/paper helpful, please consider citing our work :)
 ```
-@article{shi2021mimicking,
-  title={Mimicking the Oracle: An Initial Phase Decorrelation Approach for Class Incremental Learning},
-  author={Shi, Yujun and Zhou, Kuangqi and Liang, Jian and Jiang, Zihang and Feng, Jiashi and Torr, Philip and Bai, Song and Tan, Vincent YF},
-  journal={arXiv preprint arXiv:2112.04731},
-  year={2021}
+@inproceedings{shi2022mimicking,
+  title={Mimicking the oracle: an initial phase decorrelation approach for class incremental learning},
+  author={Shi, Yujun and Zhou, Kuangqi and Liang, Jian and Jiang, Zihang and Feng, Jiashi and Torr, Philip HS and Bai, Song and Tan, Vincent YF},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={16722--16731},
+  year={2022}
 }
 ```
 
